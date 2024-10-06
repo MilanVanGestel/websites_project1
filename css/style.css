@@ -1,0 +1,109 @@
+body {
+    background-color: #303030;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+header {
+    text-align: center;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+header > img {
+    width: 25%;
+}
+.img-container > img {
+    width: 100%;
+}
+nav {
+    border-top: solid #FFBD00;
+    border-bottom: solid #FFBD00;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: "Montserrat", sans-serif;
+}
+nav > a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 20px;
+}
+main {
+    margin-bottom: 1.5em;
+}
+.main_text-container {
+    text-align: center;
+    color: whitesmoke;
+    
+}
+.img_text-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.img_text-container > div {
+    width: 15%;
+    
+}
+.img_text-container > div > img{
+    width: 100%;
+    border: #FFBD00 solid;
+}
+.img_text-container > p {
+    width: 60%;
+    text-align: start;
+    margin-left: 1em;
+    margin-top: 0em;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+.main_text-container > h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+}
+footer {
+    background-color: #242424;
+}
+.footer_text {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_mail {
+    text-align: end;
+    font-family: "Montserrat", sans-serif;
+    padding-right: 0.5em;
+}
+.footer_mail > p > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.vl {
+    border-left: #FFBD00 solid 1px;
+    height: 50px;
+}
+.footer_tel {
+    text-align: start;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 0.5em;
+}
+.footer_img {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+}
+.footer_img > img{
+    width: 15%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
