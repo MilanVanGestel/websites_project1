@@ -13,7 +13,7 @@ header {
 header > img {
     width: 25%;
 }
-.header_cv_pagina {
+.header_cv_pagina, .header_contact_pagina {
     text-align: center;
     color: whitesmoke;
     font-family: "Montserrat", sans-serif;
@@ -242,4 +242,80 @@ color: whitesmoke;
     margin-top: 0.3em;
     font-family: "Poppins", sans-serif;
     font-size: 13px;
+}
+.contact_pagina_text {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.contact_pagina_text > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.hl_contact {
+    border-bottom: #FFBD00 solid 1px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa-envelope, .fa-phone, .fa-linkedin {
+    color: whitesmoke;
+    margin-right: 0.5em;
+}
+.formulier_contact {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form_labels {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-top: 1em;
+}
+#naam {
+    width: 50%;
+    background-color: #242424;
+    color: whitesmoke;
+    border-color: #FFBD00;
+    margin: 0.5em;
+}
+#email {
+    width: 50%;
+    background-color: #242424;
+    color: whitesmoke;
+    border-color: #FFBD00;
+    margin: 0.5em;
+}
+#onderwerp {
+    width: 60%;
+    background-color: #242424;
+    color: whitesmoke;
+    border-color: #FFBD00;
+    margin: 0.5em;
+}
+#vraag {
+    width: 80%;
+    height: 100px;
+    background-color: #242424;
+    color: whitesmoke;
+    border-color: #FFBD00;
+    margin: 0.5em;
+}
+#button {
+    width: 20%;
+    background-color: #242424;
+    color: whitesmoke;
+    border-color: #FFBD00;
+    border-radius: 10px;
+    margin: 0.5em;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
 }
