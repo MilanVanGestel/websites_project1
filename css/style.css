@@ -13,6 +13,12 @@ header {
 header > img {
     width: 25%;
 }
+.header_cv_pagina {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+}
 .img-container > img {
     width: 100%;
 }
@@ -23,6 +29,7 @@ nav {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     font-family: "Montserrat", sans-serif;
+    position: sticky;
 }
 nav > a {
     color: whitesmoke;
@@ -30,6 +37,32 @@ nav > a {
     padding-left: 0.5em;
     padding-right: 0.5em;
     font-size: 20px;
+}
+.nav_plus_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.nav_logo {
+width: 10%;
+text-align: start;
+margin-left: 0.5em;
+}
+.nav_logo > img {
+    width: 100%;
+}
+.nav_links {
+    width: 90%;
+    margin-right: 10%;
+}
+.nav_links > a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 20px;
+    text-align: center;
 }
 main {
     margin-bottom: 1.5em;
@@ -62,7 +95,7 @@ main {
     margin-left: 1em;
     margin-top: 0em;
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 .main_text-container > h1 {
     font-family: "Montserrat", sans-serif;
@@ -74,28 +107,28 @@ footer {
 .footer_text {
     display: flex;
     justify-content: center;
-    width: 30%;
+    flex-direction: column;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
 }
 .footer_mail {
     text-align: end;
     font-family: "Montserrat", sans-serif;
-    padding-right: 0.5em;
+    text-align: center;
 }
 .footer_mail > p > a {
     text-decoration: none;
     color: whitesmoke;
 }
-.vl {
-    border-left: #FFBD00 solid 1px;
-    height: 50px;
+.hl {
+    border-bottom: #FFBD00 solid 1px;
 }
 .footer_tel {
     text-align: start;
     color: whitesmoke;
     font-family: "Montserrat", sans-serif;
-    padding-left: 0.5em;
+    text-align: center;
 }
 .footer_img {
     width: 100%;
@@ -106,4 +139,107 @@ footer {
     width: 15%;
     padding-bottom: 1em;
     padding-top: 1em;
+}
+.cv_container {
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+
+}
+.sidebar {
+width: 30%;
+display: flex;
+flex-direction: column;
+background-color: #242424;
+border-right: #FFBD00 solid 1px;
+color: whitesmoke;
+}
+.foto {
+    width: 60%;
+    border: #FFBD00 solid 1px;
+    margin: 0.5em;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foto > img {
+    width: 100%;
+}
+.spec_tussentitel {
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+.spec_text {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-left: 0.5em;
+}
+.cv_main_content {
+    border: #FFBD00 solid 1px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.cv_main_header {
+    background-color: #242424;
+    color: whitesmoke;
+    border-bottom: #FFBD00 solid 1px;
+    width: 100%;
+}
+.cv_header {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+.cv_header_email, .cv_header_tel {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin-left: 0.5em;
+}
+.cv_main_text_tussentitels {
+    color: whitesmoke;
+    margin-left: 0.5em;
+    background-color: #242424;
+    width: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0.2em;
+}
+.cv_profiel_text {
+    color: whitesmoke;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+.cv_opleiding_text {
+    color: whitesmoke;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.1em;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+.cv_opleiding_text_smal {
+    color: whitesmoke;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-bottom: 0.5em;
+}
+.cv_opleiding_text_smaller {
+    color: whitesmoke;
+    margin-left: 1.5em;
+    margin-top: 0.3em;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
 }
