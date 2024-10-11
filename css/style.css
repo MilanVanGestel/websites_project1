@@ -13,7 +13,7 @@ header {
 header > img {
     width: 25%;
 }
-.header_cv_pagina, .header_contact_pagina {
+.header_cv_pagina, .header_contact_pagina, .header_overmij_pagina {
     text-align: center;
     color: whitesmoke;
     font-family: "Montserrat", sans-serif;
@@ -318,4 +318,77 @@ color: whitesmoke;
     margin-top: 1.5em;
     margin-left: auto;
     margin-right: auto;
+}
+.overmij_pagina_main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.overmij_pagina_header_text {
+    color: whitesmoke;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+.overmij_pagina_tussentitel1 {
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 0.5em;
+    margin-top: 1.5em;
+}
+.overmij_pagina_tussentitel2, .overmij_pagina_tussentitel3 {
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+.overmij_pagina_tussentitel3 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1.5em;
+}
+.overmij_pagina_text {
+    color: whitesmoke;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: "Poppins", sans-serif;
+}
+.overmij_pagina_tabel {
+    border-collapse: collapse;
+    border: #FFBD00 1px solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+#overmij_pagina_tabel_caption {
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    caption-side: bottom;
+    margin-top: 0.5em;
+}
+.tabel_header {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #242424;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border: #FFBD00 solid 1px;
+    padding: 0.5em;
+}
+.tabel_data {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    border: #FFBD00 1px solid;
+    padding: 0.5em;
+}
+.tabel_data > a {
+    color: whitesmoke;
+    text-decoration: underline;
 }
