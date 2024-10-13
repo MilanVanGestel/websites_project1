@@ -468,3 +468,13 @@ color: whitesmoke;
 .back_icon > i {
     font-size: 30px;
 }
+.computers_img_text_container, .lezen_img_text_container {
+    display: flex;
+    justify-content: center;
+}
+.computer_img, .lezen_img {
+    width: 30%;
+}
+.computers_img > img, .lezen_img > img {
+    width: 100%;
+}
